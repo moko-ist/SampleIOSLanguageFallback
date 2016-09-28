@@ -67,6 +67,11 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="＊ Localizable.strings の出力" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sJx-dz-WYS">
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bundle.main.preferredLocalizations" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3ly-zX-4nf">
                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <nil key="textColor"/>
@@ -87,6 +92,11 @@
                                                 <color key="textColor" name="scrollBarColor" catalog="System" colorSpace="catalog"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="( NSLocalizedStrings )" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IQW-B1-oxO">
+                                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                                <color key="textColor" name="scrollBarColor" catalog="System" colorSpace="catalog"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="( NSLocale.preferredLanguages.first )" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DWj-bB-GhW">
                                                 <fontDescription key="fontDescription" type="system" pointSize="11"/>
                                                 <color key="textColor" name="scrollBarColor" catalog="System" colorSpace="catalog"/>
@@ -94,6 +104,11 @@
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="＊ アプリの表示言語の候補一覧" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JCe-qb-6Pk">
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NSLocalizedStrings" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U0V-7E-aiy">
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -110,15 +125,20 @@
                                             <constraint firstItem="uAC-xk-HLg" firstAttribute="leading" secondItem="OmP-gh-DBX" secondAttribute="leading" constant="10" id="BWr-hn-BMF"/>
                                             <constraint firstItem="0X7-rg-KQf" firstAttribute="top" secondItem="K4b-Qo-JI1" secondAttribute="bottom" constant="20" id="Dko-mj-DQw"/>
                                             <constraint firstAttribute="trailing" secondItem="XYE-DB-yKb" secondAttribute="trailing" constant="10" id="FaB-TF-57L"/>
+                                            <constraint firstAttribute="trailing" secondItem="U0V-7E-aiy" secondAttribute="trailing" constant="10" id="GFf-UP-8Ib"/>
                                             <constraint firstItem="K4b-Qo-JI1" firstAttribute="top" secondItem="uAC-xk-HLg" secondAttribute="bottom" constant="5" id="H6g-VE-dLM"/>
                                             <constraint firstItem="3ly-zX-4nf" firstAttribute="leading" secondItem="OmP-gh-DBX" secondAttribute="leading" constant="10" id="JM6-tJ-KwN"/>
                                             <constraint firstItem="XYE-DB-yKb" firstAttribute="top" secondItem="0X7-rg-KQf" secondAttribute="bottom" constant="5" id="JUE-u1-wbR"/>
-                                            <constraint firstAttribute="bottom" secondItem="jri-pH-6xk" secondAttribute="bottom" constant="20" id="Lcj-xA-yAn"/>
+                                            <constraint firstItem="IQW-B1-oxO" firstAttribute="leading" secondItem="OmP-gh-DBX" secondAttribute="leading" constant="10" id="JxG-s3-oXX"/>
+                                            <constraint firstItem="sJx-dz-WYS" firstAttribute="leading" secondItem="OmP-gh-DBX" secondAttribute="leading" constant="10" id="LIc-zr-jvw"/>
+                                            <constraint firstItem="IQW-B1-oxO" firstAttribute="top" secondItem="sJx-dz-WYS" secondAttribute="bottom" constant="5" id="NCa-aQ-iyO"/>
+                                            <constraint firstAttribute="trailing" secondItem="IQW-B1-oxO" secondAttribute="trailing" constant="10" id="Nc9-nv-glF"/>
                                             <constraint firstItem="K4b-Qo-JI1" firstAttribute="leading" secondItem="OmP-gh-DBX" secondAttribute="leading" constant="10" id="Nps-No-vbq"/>
                                             <constraint firstItem="xVc-xq-NXb" firstAttribute="top" secondItem="4TK-6j-l0k" secondAttribute="bottom" constant="20" id="OKX-9Z-KI2"/>
                                             <constraint firstItem="DWj-bB-GhW" firstAttribute="leading" secondItem="OmP-gh-DBX" secondAttribute="leading" constant="10" id="PhG-zr-aWs"/>
                                             <constraint firstItem="GeS-kb-ik4" firstAttribute="top" secondItem="3ly-zX-4nf" secondAttribute="bottom" constant="20" id="RXX-2m-cpP"/>
                                             <constraint firstItem="7vG-tO-zr4" firstAttribute="leading" secondItem="OmP-gh-DBX" secondAttribute="leading" constant="10" id="RmW-hN-Mgl"/>
+                                            <constraint firstAttribute="trailing" secondItem="sJx-dz-WYS" secondAttribute="trailing" constant="10" id="Taa-gW-VGl"/>
                                             <constraint firstAttribute="trailing" secondItem="qnh-b5-Prw" secondAttribute="trailing" constant="10" id="UXW-gC-5xb"/>
                                             <constraint firstAttribute="trailing" secondItem="JCe-qb-6Pk" secondAttribute="trailing" constant="10" id="Uiv-FC-9hZ"/>
                                             <constraint firstAttribute="trailing" secondItem="uAC-xk-HLg" secondAttribute="trailing" constant="10" id="bT4-9o-UYB"/>
@@ -127,16 +147,20 @@
                                             <constraint firstAttribute="trailing" secondItem="7vG-tO-zr4" secondAttribute="trailing" constant="10" id="eYf-Ab-7KS"/>
                                             <constraint firstAttribute="trailing" secondItem="SaA-vI-mJR" secondAttribute="trailing" constant="10" id="efv-N7-sgf"/>
                                             <constraint firstAttribute="trailing" secondItem="6VR-x9-reC" secondAttribute="trailing" constant="10" id="f8F-K7-5u1"/>
+                                            <constraint firstItem="U0V-7E-aiy" firstAttribute="top" secondItem="IQW-B1-oxO" secondAttribute="bottom" constant="5" id="fRe-sI-x6g"/>
                                             <constraint firstAttribute="trailing" secondItem="DWj-bB-GhW" secondAttribute="trailing" constant="10" id="fo4-WI-Iqu"/>
                                             <constraint firstItem="qnh-b5-Prw" firstAttribute="top" secondItem="JCe-qb-6Pk" secondAttribute="bottom" constant="5" id="gBs-MP-KG5"/>
                                             <constraint firstAttribute="trailing" secondItem="xVc-xq-NXb" secondAttribute="trailing" constant="10" id="gWn-oc-rdt"/>
                                             <constraint firstAttribute="trailing" secondItem="3ly-zX-4nf" secondAttribute="trailing" constant="10" id="gbC-yp-c4q"/>
                                             <constraint firstAttribute="trailing" secondItem="GeS-kb-ik4" secondAttribute="trailing" constant="10" id="ggu-Bw-btW"/>
                                             <constraint firstItem="7vG-tO-zr4" firstAttribute="top" secondItem="XYE-DB-yKb" secondAttribute="bottom" constant="5" id="iYM-d7-uOs"/>
+                                            <constraint firstItem="sJx-dz-WYS" firstAttribute="top" secondItem="jri-pH-6xk" secondAttribute="bottom" constant="20" id="jsl-yu-CRZ"/>
                                             <constraint firstItem="SaA-vI-mJR" firstAttribute="leading" secondItem="OmP-gh-DBX" secondAttribute="leading" constant="10" id="jzg-ZL-cEf"/>
                                             <constraint firstItem="4TK-6j-l0k" firstAttribute="top" secondItem="DWj-bB-GhW" secondAttribute="bottom" constant="5" id="kJZ-Ck-IXX"/>
                                             <constraint firstAttribute="trailing" secondItem="0X7-rg-KQf" secondAttribute="trailing" constant="10" id="oHU-sh-Lld"/>
+                                            <constraint firstAttribute="bottom" secondItem="U0V-7E-aiy" secondAttribute="bottom" constant="20" id="qnm-tS-7oW"/>
                                             <constraint firstItem="qnh-b5-Prw" firstAttribute="leading" secondItem="OmP-gh-DBX" secondAttribute="leading" constant="10" id="sbd-Il-Wbe"/>
+                                            <constraint firstItem="U0V-7E-aiy" firstAttribute="leading" secondItem="OmP-gh-DBX" secondAttribute="leading" constant="10" id="soG-o9-F6G"/>
                                             <constraint firstAttribute="trailing" secondItem="jri-pH-6xk" secondAttribute="trailing" constant="10" id="tAv-Lh-g1M"/>
                                             <constraint firstItem="JCe-qb-6Pk" firstAttribute="leading" secondItem="OmP-gh-DBX" secondAttribute="leading" constant="10" id="tbI-ud-U7C"/>
                                             <constraint firstItem="JCe-qb-6Pk" firstAttribute="top" secondItem="7vG-tO-zr4" secondAttribute="bottom" constant="20" id="uQD-Pb-lJQ"/>
@@ -172,6 +196,7 @@
                         <outlet property="appSelectedLanguages" destination="3ly-zX-4nf" id="jS1-Bo-Jll"/>
                         <outlet property="deviceLanguage" destination="4TK-6j-l0k" id="QoN-47-2Da"/>
                         <outlet property="deviceLanguages" destination="K4b-Qo-JI1" id="kpZ-h0-Tk9"/>
+                        <outlet property="localizedString" destination="U0V-7E-aiy" id="GWE-Km-7jO"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

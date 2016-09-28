@@ -15,6 +15,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var appSelectedLanguage: UILabel!
     @IBOutlet weak var appSelectedLanguages: UILabel!
     @IBOutlet weak var appLanguages: UILabel!
+    @IBOutlet weak var localizedString: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -50,6 +51,8 @@ class ViewController: UIViewController {
             appLanguagesString += "\(string)\n"
         }
         appLanguages.text = appLanguagesString
+        
+        localizedString.text = NSLocalizedString("languageTag", comment: "languageTag")
     }
 
     override func didReceiveMemoryWarning() {
