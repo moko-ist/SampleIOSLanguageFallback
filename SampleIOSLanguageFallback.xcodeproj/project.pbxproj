@@ -23,6 +23,7 @@
 		9A90D6601D9B8DFF00DBCF1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A90D6631D9B8DFF00DBCF1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9A90D6651D9B8DFF00DBCF1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AB377D41DBDACF100623575 /* en-CA */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-CA"; path = "en-CA.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		9AC7BD9C1D9C107700E842E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		9AC7BD9E1D9C109E00E842E8 /* en-GB */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-GB"; path = "en-GB.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		9AC7BD9F1D9C10BA00E842E8 /* en-US */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-US"; path = "en-US.lproj/Localizable.strings"; sourceTree = "<group>"; };
@@ -149,6 +150,7 @@
 				pt,
 				ru,
 				ja,
+				"en-CA",
 			);
 			mainGroup = 9A90D64D1D9B8DFF00DBCF1C;
 			productRefGroup = 9A90D6571D9B8DFF00DBCF1C /* Products */;
@@ -224,6 +226,7 @@
 				9AC7BDAA1D9C118F00E842E8 /* pt */,
 				9AC7BDAB1D9C11A800E842E8 /* ru */,
 				9AC7BDAC1D9C11B000E842E8 /* ja */,
+				9AB377D41DBDACF100623575 /* en-CA */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
